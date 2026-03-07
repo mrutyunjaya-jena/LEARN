@@ -39,5 +39,37 @@ int main() {
     } while (k < 5);
     cout << endl;
 
+
+    // switch statement
+    int day = 3;
+    switch (day) {
+        case 1:     
+            cout << "Monday" << endl;
+            break;
+        case 2:
+            cout << "Tuesday" << endl;
+            break;
+        case 3:
+            cout << "Wednesday" << endl;
+            break;
+        case 4:
+            cout << "Thursday" << endl;
+            break;
+        case 5:
+            cout << "Friday" << endl;
+            break;
+        default:
+            cout << "Weekend" << endl;
+    }       
+
+
+    //for-each 
+    cout << "For-each loop: ";
+    int arr[] = {1, 2, 3, 4, 5};
+    for (int num : arr) {
+        cout << num << " ";
+    }
+    cout << endl;
+
     return 0;
 }
