@@ -10,7 +10,11 @@ int main() {
     //Hello World
     std::cout << "Hello, World!" << std::endl;
 
-
+    // for input from use
+    std::string name;
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    std::cout << "Hello, " << name << "!" << std::endl;
 
     // Variable declaration and initialization
     int age = 25; // Integer variable
