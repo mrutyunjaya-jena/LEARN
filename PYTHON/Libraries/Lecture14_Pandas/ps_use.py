@@ -12,3 +12,8 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+
+# more uses of pandas
+## Basic Operations
+# Display the first few rows of the DataFrame
+ 
