@@ -12,6 +12,7 @@ int main(){
 
     vec.push_back(6); //pushes back an element to the end of the vector
     cout << "Size of vec is : " << vec.size() << endl; // returns the number of elements in the vector
+    cout << "Capacity of vec is : " << vec.capacity() << endl; // returns the total number of elements that the vector can hold without resizing
     vec.pop_back(); // removes the last element from the vector
     cout << "Front element of vec is : " << vec.front() << endl; // returns the first element of the vector
     cout << "Back element of vec is : " << vec.back() << endl; // returns the last element of the vector
