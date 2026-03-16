@@ -17,6 +17,7 @@ int main(){
 
     for(auto x : unomset){
         std::cout << x << std::endl;
-    }    
+    }
+      
     return 0;
 }
